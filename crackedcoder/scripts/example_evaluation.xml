@@ -1,0 +1,10 @@
+<evaluation>
+  <qa_pair>
+    <question>[Example question requiring multiple steps to answer. Should be realistic, read-only, and have a single verifiable answer.]</question>
+    <answer>[Single, stable, string-comparable answer]</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>[Another question. Use diverse answer types: names, dates, counts, URLs, true/false, A/B/C/D.]</question>
+    <answer>[Answer]</answer>
+  </qa_pair>
+</evaluation>
