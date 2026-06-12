@@ -1,22 +1,3 @@
----
-name: promptgen
-description: Instantly generate a lean Claude Code prompt.md. Default persona (full-stack, AWS, Terraform), Objective, Execution Plan, Constraints, Status Bar.
-icon: ✍️
-tags: prompting, agents, productivity
----
-
-# Prompt Generator
-
-Parse `args` for the output filename (default: `prompt.md`). Resolve relative to cwd.
-
-Ask **one question only** if not already answered in the user's message:
-
-> "What should the prompt accomplish?"
-
-Then write the file immediately — no follow-ups.
-
----
-
 ## Output Template
 
 Fill every `<…>` with real content. Do not leave placeholders.
